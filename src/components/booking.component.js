@@ -74,7 +74,7 @@ export default class contactUs extends Component {
       bookingcomment: this.state.bookingcomment,
     }
     console.log(booking)
-    axios.post('http://localhost:5000/booking/add', booking)
+    axios.post('https://queencitytoursbackend.onrender.com/booking/add', booking)
     .then(res=>console.log(res.data));
     this.setState({ showAlert: true }); // set showAlert to true after form submission
     // window.location="/"

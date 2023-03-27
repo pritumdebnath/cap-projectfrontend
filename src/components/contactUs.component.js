@@ -51,7 +51,7 @@ export default class contactUs extends Component {
       comment: this.state.comment,
     }
     console.log(contact)
-    axios.post('http://localhost:5000/contactus/add', contact)
+    axios.post('https://queencitytoursbackend.onrender.com/contactus/add', contact)
     .then(res=>console.log(res.data));
     this.setState({ showAlert: true }); // set showAlert to true after form submission
     // window.location="/"
