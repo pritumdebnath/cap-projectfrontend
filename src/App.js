@@ -20,7 +20,6 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      {/* change route names */}
       <Switch>
         <Route path="/" exact>
           <Showcase/>

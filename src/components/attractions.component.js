@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';  
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import cincinnatiSkyline from '../assets/cincinnatiSkyline.jpeg';
 import '../components/style/attractions.css';
 import { Helmet } from 'react-helmet';
 

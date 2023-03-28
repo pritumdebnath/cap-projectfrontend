@@ -7,36 +7,7 @@ import image1 from './style/images/qctlogo2.png'
 
 
 class Navbar extends React.Component { 
-  // constructor (props) {
-  //   super(props)
-  //   this.state = {
-  //     menuOpen: false
-  //   }
-  // }
-
-  // // This keeps your state in sync with the opening/closing of the menu
-  // // via the default means, e.g. clicking the X, pressing the ESC key etc.
-  // handleStateChange (state) {
-  //   this.setState({menuOpen: state.isOpen})
-  //   console.log(state);
-  // }
-  
-  // // This can be used to close the menu, e.g. when a user clicks a menu item
-  // closeMenu () {
-  //   this.setState({menuOpen: false})
-  //   console.log("this func fired");
-  // }
-
-  // // This can be used to toggle the menu, e.g. when using a custom icon
-  // // Tip: You probably want to hide either/both default icons if using a custom icon
-  // // See https://github.com/negomi/react-burger-menu#custom-icons
-  // toggleMenu () {
-  //   this.setState(state => ({menuOpen: !state.menuOpen}))
-  //   console.log("toggle fired");
-  // }
-
   handleClick = (e) => {
-    // e.preventDefault();
     document.getElementsByClassName('modal-backdrop').remove();
     console.log("func fired");
   }
@@ -114,14 +85,6 @@ class Navbar extends React.Component {
                             </div>
 
                         </div>
-
-                        {/* <div class="mobile-modal-footer">
-                            
-                            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
-                        </div> */}
                     </div>
                 </div>
             </div>
@@ -133,90 +96,3 @@ class Navbar extends React.Component {
 }
 export default Navbar;
 
-
-/* <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-        <Link to="/" className="navbar-brand">Home</Link>
-        <div className="collpase navbar-collapse">
-        <ul className="navbar-nav mr-auto">
-          <li className="navbar-item">
-          <Link to="/attractions" className="nav-link">Attractions</Link>
-          </li>
-          <li className="navbar-item">
-          <Link to="/addattractions" className="nav-link">Add Attraction</Link>
-          </li>
-          <li className="navbar-item">
-          <Link to="/about" className="nav-link">About</Link>
-          </li>
-          <li className="navbar-item">
-          <Link to="/contactus" className="nav-link">Contact Us</Link>
-          </li>
-        </ul>
-        </div>
-      </nav> */
-
-/* <header className="main-header">
-      <div className="container">
-        <nav className='navbar navbar-expand-lg main-nav px-0'> */
-          /* <a className='navbar-brand'></a> */
-    //       <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#mainMenu' aria-expanded="false" aria-label="Toggle navigation">
-    //         <span className="icon-bar icon-bar-1"></span>
-    //         <span className="icon-bar icon-bar-2"></span>
-    //         <span className="icon-bar icon-bar-3"></span>
-    //       </button>
-    //       <div className="collapse navbar-collapse" id="mainMenu">
-    //       <ul className="navbar-nav ml-auto text-uppercase f1">
-    //         <li>
-    //           <Link to="/" className="navbar-brand">Home</Link>
-    //         </li>
-    //         <li>
-    //           <Link to="/attractions" className="nav-link">Attractions</Link>
-    //         </li>
-    //         <li>
-    //           <Link to="/addattractions" className="nav-link">Add Attraction</Link>
-    //         </li>
-    //         <li>
-    //           <Link to="/about" className="nav-link">About</Link>
-    //         </li>
-    //         <li>
-    //           <Link to="/contactus" className="nav-link">Contact Us</Link>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </nav>
-    // </div>
-    // </header>
-
-
-  //   <nav className="navbar active navbarfont navbar-expand-lg" id="nav-container">
-  //   <button
-  //     className="navbar-toggler"
-  //     type="button"
-  //     data-bs-toggle="collapse"
-  //     data-bs-target="#navbarSupportedContent"
-  //     aria-controls="navbarSupportedContent"
-  //     aria-expanded="false"
-  //     aria-label="Toggle navigation"
-  //   >
-  //     <span className="navbar-toggler-icon"></span>
-  //   </button>
-  //   <div className="collapse navbar-collapse nav-links navbarfont" id="navbarSupportedContent">
-  //     <Link to="/" className="logo">QCA</Link>
-  //       <ul className="navbar-nav">
-  //         <li className="active nav-item">
-  //           <Link to="/" className="nav-link">Home</Link>
-  //         </li>
-  //         <li className="active nav-item">
-  //           <Link to="/attractions" className="nav-link">Attractions</Link>
-  //         </li>
-  //         <li className="active nav-item">
-  //           <Link to="/addattractions" className="nav-link">Add Attraction</Link>
-  //         </li>
-  //         <li className="active nav-item">
-  //           <Link to="/about" className="nav-link">About</Link>
-  //         </li>
-  //         <li className="active nav-item">
-  //           <Link to="/contactus" className="nav-link">Contact Us</Link>
-  //         </li>
-  //       </ul>
-  //     </div>
-  // </nav>

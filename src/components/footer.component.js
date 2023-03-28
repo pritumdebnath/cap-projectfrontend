@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/style/footer.style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -136,24 +135,6 @@ export default class Footer extends Component {
                 </a>
               </p>
             </div>
-            {/* <hr className="mb-4"/> */}
-            {/* <div className=" align-items-center">
-                <div className="col-md-7 col-lg-8">
-                    <ul className="list-unstyled list-inline">
-                        <li className="list-inline-item">
-                            <a href="https://facebook.com" className="btn-floating btn-sm text-white">
-                                <FontAwesomeIcon icon={faFacebook} />
-                            </a>
-                            <a href="https://twitter.com" className="btn-floating btn-sm text-white">
-                                <FontAwesomeIcon icon={faTwitter} />
-                            </a>
-                            <a href="https://instagram.com" className="btn-floating btn-sm text-white">
-                                <FontAwesomeIcon icon={faInstagram} />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div> */}
           </div>
         </div>
       </footer>

@@ -4,15 +4,11 @@
     box-sizing: border-box;
    
 }
-/* .containercontact{
-    width: 1000px!important;
-} */
+
 .pcontact{
     font-size: 13.5px;
 }
-/* .h1contact{
-    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
-} */
+
 .bg-primarycontact{
     background-color: #ff6b35 !important;
     font-family:Verdana, Geneva, Tahoma, sans-serif!important;

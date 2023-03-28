@@ -41,11 +41,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* #home-section{
-  position: relative;
-  z-index: 1;
-}
-*/
+
 .home-cards{
   position: relative;
   z-index:-1;
@@ -65,22 +61,6 @@ body {
     font-size: 18px;
   }
 
-  /* .destinations .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-
-  .destinations .grid div img {
-    height: 150px;
-    width: 300px;
-  }
-
-  
-
-  .login .form-control input {
-    width: 50vw;
-  } */
 
 }
 
@@ -95,7 +75,7 @@ hr {
 }
 
 .home-images {
-  /* height: 300px; */
+  
   border-radius: 70px;
 }
 
