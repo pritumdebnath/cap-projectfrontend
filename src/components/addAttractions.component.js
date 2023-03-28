@@ -90,7 +90,7 @@ export default class addAttractions extends Component {
     axios.post('https://queencitytoursbackend.onrender.com/attractions/add', attraction)
       .then(res => console.log(res.data));
 
-    window.location = '/attractions'
+    window.location = 'https://queencitytours.onrender.com/attractions'
   };
 
   render() {
