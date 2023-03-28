@@ -175,15 +175,13 @@ export default class About extends Component {
 
         <div className="container-fluid text-center text-white about-top">
           <p className="container cinci">
-            Our website development project is led by a team of four talented
-            graduates from a web development bootcamp. Our front-end expert is
-            skilled in HTML, CSS, and JavaScript, while our back-end specialist
-            excels in languages like Python and Ruby on Rails. Our full-stack
-            developer seamlessly integrates features and functionalities, and
-            our quality assurance and testing specialist ensures that the
-            website meets the highest standards of quality. Together, we are
-            committed to creating a beautiful and functional website that
-            exceeds our clients' expectations.
+          Our website development project is led by a team of four talented
+          graduates from a web development bootcamp at Kable Academy. We pride
+          ourselves with knowledge in front-end skills like HTML, CSS,
+          JavaScript, React, as well as back-end skills in languages like
+          Node, Express and Web API. With our new found knowledge in
+          full-stack development, we committed to creating this beautiful and
+          functional website that exceeds our expectations.
           </p>
         </div>
       </>
