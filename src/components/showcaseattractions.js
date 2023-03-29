@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
-import {Link} from 'react-router-dom';
 import "../components/style/showcaseattractions.css";
-import Attractions from "./attractions.component";
+
 
 const ShowcaseAttractions = () => {
     const ref = useRef(null);
@@ -19,10 +18,6 @@ const ShowcaseAttractions = () => {
                 Click Here to Scroll Down
             </button>
         </a>
-        {/* <Attractions ref={ref}/> */}
-        {/* <Link to="/attractions" className="btn btn-danger">
-          Scroll Down
-        </Link> */}
       </div>
     </section>
   );
